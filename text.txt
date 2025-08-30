@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+  <meta charset="UTF-8">
+  <title>فروشگاه من</title>
+  <style>
+    body { font-family: tahoma; background: #f8f8f8; text-align: center; }
+    h1 { color: #333; }
+    .products { display: flex; flex-wrap: wrap; justify-content: center; }
+    .card {
+      background: #fff; margin: 10px; padding: 15px; border-radius: 8px;
+      width: 200px; box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    .card img { width: 100%; border-radius: 8px; }
+    .btn {
+      display: inline-block; margin-top: 10px; padding: 8px 12px;
+      background: #27ae60; color: #fff; text-decoration: none; border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+  <h1>فروشگاه من</h1>
+  <div class="products">
+    <div class="card">
+      <img src="https://via.placeholder.com/200" alt="محصول ۱">
+      <h3>محصول ۱</h3>
+      <p>توضیحات کوتاه محصول</p>
+      <p><strong>200,000 تومان</strong></p>
+      <a href="#" class="btn">افزودن به سبد</a>
+    </div>
+    <div class="card">
+      <img src="https://via.placeholder.com/200" alt="محصول ۲">
+      <h3>محصول ۲</h3>
+      <p>توضیحات کوتاه محصول</p>
+      <p><strong>350,000 تومان</strong></p>
+      <a href="#" class="btn">افزودن به سبد</a>
+    </div>
+  </div>
+</body>
+</html>
